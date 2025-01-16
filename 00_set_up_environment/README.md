@@ -17,4 +17,4 @@ and you can open Jupyter by running
 
     jupyter notebook
 
-[GEO244 environment setup in WSL2.pdf](GEO244%20environment%20setup%20in%20WSL2.pdf) : instructions for installing the conda environment on Windows PCs (and the instructions also work for Linux)
+[GEO244 environment setup in WSL2.pdf](GEO244%20environment%20setup%20in%20WSL2.pdf) : instructions for installing the conda environment on Windows PCs (and the instructions also work for Linux). This includes some setup of configuration files which will be useful later on.
