@@ -11,3 +11,6 @@ A Jupyter notebook for setting up a SSO token for downloading data from EarthSco
 
 ## [02_gnss_time_series_decomposition](02_gnss_time_series_decomposition/)
 A Jupyter notebook demonstrating ways of decomposing a GNSS time series $-$ detrending, solving for offsets, solving for postseismic transients and removing seasonal signals.
+
+## [03_gnss_preprocessing_and_processing](03_gnss_preprocessing_and_processing/)
+How to convert data from 'raw' (proprietary binary) format to RINEX, how to estimate important metadata parameters, how to edit RINEX headers, and how to use the OPUS processing service to turn your data into positions.
