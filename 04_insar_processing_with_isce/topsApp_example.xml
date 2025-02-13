@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topsApp>
+<component name="topsinsar">
+<property name="Sensor name">SENTINEL1</property>
+<property name="do unwrap">True</property>
+<property name="unwrapper name">snaphu</property>
+<property name="usevirtualfiles">True</property>
+<!-- property name="usegpu">True</property -->
+<!-- property name="dodenseoffsets">True</property -->
+<!-- property name="doionospherecorrection">True</property -->
+<!-- property name="applyionospherecorrection">True</property -->
+<property name="doesd">True</property>
+<property name="esd coherence threshold">0.7</property>
+<property name="swaths">[1]</property>
+<component name="reference">
+<property name="orbit directory">orbits/</property>
+<property name="output directory">reference</property>
+<property name="safe">['slcs/S1A_IW_SLC__1SDV_20230903T183344_20230903T183412_050167_0609B4_100E.zip']</property>
+</component>
+<component name="secondary">
+<property name="orbit directory">orbits/</property>
+<property name="output directory">secondary</property>
+<property name="safe">['slcs/S1A_IW_SLC__1SDV_20230915T183345_20230915T183413_050342_060F9F_85A4.zip']</property>
+</component>
+</component>
+</topsApp>
