@@ -14,3 +14,9 @@ A Jupyter notebook demonstrating ways of decomposing a GNSS time series $-$ detr
 
 ## [03_gnss_preprocessing_and_processing](03_gnss_preprocessing_and_processing/)
 How to convert data from 'raw' (proprietary binary) format to RINEX, how to estimate important metadata parameters, how to edit RINEX headers, and how to use the OPUS processing service to turn your data into positions.
+
+## [04_insar_processing_with_isce](04_insar_processing_with_isce/)
+A Jupyter notebook containing a very basic workflow to run topsApp.py on Sentinel-1 data downloaded from the Alaska Satellite Facility, including some in-notebook plotting options.
+
+## [05_simple_time_series_analysis_with_mintpy](05_simple_time_series_analysis_with_mintpy/)
+A Jupyter notebook designed to get you up and running with processed InSAR data from the Alaska Satellite Facility's cloude-based 'HyP3' processor in the MintPy software. 
